@@ -83,16 +83,16 @@ nav .btn:hover{
     font-weight: 500;
     margin-top: 30px;
     transition: 0.5s;
-    border: 1px solid #ff9606;
+    border: 2px solid #ff9606;
     cursor: default;
 }
 .content-btn:hover{
     background: transparent;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
 .coin{
     position: absolute;
-    right: 10%;
+    right: 5%;
     bottom: 3%;
     display: flex;
 }
@@ -101,13 +101,13 @@ nav .btn:hover{
     align-items: center;
     border: 1px solid #fff;
     border-radius: 10px;
-    margin-right: 20px;
-    padding: 20px 30px;
+    margin-right: 25px;
+    padding: 25px 35px;
     color: #fff;
     text-align: center;
 }
 .coin-box img{
-    width: 40px;
+    width: 35px;
     margin-right: 10px;
 }
 .coin-box h3{
