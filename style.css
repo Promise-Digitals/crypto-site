@@ -46,22 +46,25 @@ nav ul li a:hover{
 }
 nav .btn{
     padding: 10px 30px;
-    background: #ff9606;
-    border: 2px solid #fff;
+    background: transparent;
+    border: 1px solid #fff;
     text-decoration: none;
     color: #fff;
     cursor: default;
     border-radius: 30px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
     transition: 0.5s;
 }
 nav .btn:hover{
-    background: transparent;
+    background: #ff9606;
+    border: 1px solid #ff9606;
 }
 .content{
     margin-top: 12%;
 }
 .content h1{
-    font-size: 80px;
+    font-size: 70px;
     color: #fff;
 }
 .content h1 span{
@@ -69,7 +72,7 @@ nav .btn:hover{
 }
 .content p{
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     margin: 20px 0 0 0;
     line-height: 20px;
 }
@@ -83,12 +86,13 @@ nav .btn:hover{
     font-weight: 500;
     margin-top: 30px;
     transition: 0.5s;
-    border: 2px solid #ff9606;
+    border: 1px solid #ff9606;
     cursor: default;
+    font-size: 14px;
 }
 .content-btn:hover{
     background: transparent;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
 }
 .coin{
     position: absolute;
@@ -99,10 +103,10 @@ nav .btn:hover{
 .coin-box{
     display: flex;
     align-items: center;
-    border: 2px solid #fff;
-    border-radius: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
     margin-right: 25px;
-    padding: 25px 35px;
+    padding: 20px 30px;
     color: #fff;
     text-align: center;
 }
@@ -112,7 +116,7 @@ nav .btn:hover{
 }
 .coin-box h3{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 }
 .coin-box p{
     display: block;
